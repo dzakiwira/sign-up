@@ -6,7 +6,7 @@ body {
 }
 
 .picture {
-    background-image: url(/images/mountainBG.jpg);
+    background-image: url(images/mountainBG.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
