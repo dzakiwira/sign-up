@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+
+}
+
+.picture {
+    background-image: url(/images/mountainBG.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 800px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    margin-top: 340px;
+}
+
+.title {
+    font-size: 6rem;
+}
+
+img {
+    height: 120px;
+}
+
+.credit {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.sign-up {
+    background-color: #f2f2fc;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input-con {
+    background-color: #fff;
+    box-shadow: 5px 8px 10px gray;
+    display: flex;
+    gap: 80px;
+    padding: 40px;
+}
+
+.left-col, .right-col {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: #335677;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 60px;
+    margin: 40px;
+}
+
+p {
+    margin: 40px;
+}
